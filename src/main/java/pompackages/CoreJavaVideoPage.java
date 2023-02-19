@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CoreJavaVideoPage {
 	//Declaration
-	@FindBy(xpath="//h1")
+	@FindBy(xpath="//h1[text()='Core Java For Selenium Training']")
 	private WebElement pageHeader;
 	
 	@FindBy(xpath="//button[@aria-label='Play']")
@@ -16,7 +16,7 @@ public class CoreJavaVideoPage {
 	@FindBy(xpath="//button[@aria-label='Pause']")
 	private WebElement pauseButton;
 	
-	@FindBy(xpath="//span[text()='Add to WishList']")
+	@FindBy(xpath="//span[text()='Add To Wishlist']")
 	private WebElement addToWishlistTab;
 	
 	@FindBy(xpath="//a[@class='class_cookies']")

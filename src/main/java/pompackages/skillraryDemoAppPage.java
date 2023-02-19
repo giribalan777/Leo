@@ -10,7 +10,7 @@ import GenericLibraries.WebDriverUtility;
 public class skillraryDemoAppPage {
 	
 	//Declaration
-	@FindBy(xpath="div[@class='navbar-header']")
+	@FindBy(xpath="//div[@class='navbar-header']")
 	private WebElement pageHeader;
 	@FindBy(id="course")
 	private WebElement courseTab;

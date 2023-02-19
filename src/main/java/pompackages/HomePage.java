@@ -16,7 +16,7 @@ public class HomePage {
 	private WebElement searchButton;
 	@FindBy(xpath="//a[text()=' GEARS ']")
 	private WebElement gearsTab;
-	@FindBy(xpath="//u1[contains(@class,'dropdown-menu')]/descendant::a[text()=' skillRary Demo APP')")
+	@FindBy(xpath="//ul[contains(@class,'dropdown-menu')]/descendant::a[text()=' SkillRary Demo APP']")
 	private WebElement demoAppLink;
 	
 	//Initialization

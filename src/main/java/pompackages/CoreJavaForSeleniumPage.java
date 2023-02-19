@@ -10,7 +10,7 @@ public class CoreJavaForSeleniumPage {
 	//Declaration
 	@FindBy(xpath="//h2[@class='list_title']")
 	private WebElement pageHeader;
-	@FindBy(xpath="//a[text()='Core Java For Selenium Training']")
+	@FindBy(xpath="//a[text()=' Core Java For Selenium Training']")
 	private WebElement coreJavaForSeleniumLink;
 	
 	//Initialization
