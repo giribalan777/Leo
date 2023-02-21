@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T08:31:38 IST" name="Default suite" finished-at="2023-02-20T08:32:48 IST" duration-ms="70195">
+  <suite started-at="2023-02-21T09:37:48 IST" name="Default suite" finished-at="2023-02-21T09:38:27 IST" duration-ms="39055">
     <groups>
     </groups>
-    <test started-at="2023-02-20T08:31:38 IST" name="Default test" finished-at="2023-02-20T08:32:48 IST" duration-ms="70195">
+    <test started-at="2023-02-21T09:37:48 IST" name="Default test" finished-at="2023-02-21T09:38:27 IST" duration-ms="39055">
       <class name="testscripts.FirstTest">
-        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-20T08:31:38 IST" name="classConfiguration" finished-at="2023-02-20T08:31:39 IST" duration-ms="1447" status="PASS">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-21T09:37:48 IST" name="classConfiguration" finished-at="2023-02-21T09:37:49 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfiguration -->
-        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-20T08:31:39 IST" name="methodConfiguration" finished-at="2023-02-20T08:31:56 IST" duration-ms="17286" status="PASS">
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-21T09:37:49 IST" name="methodConfiguration" finished-at="2023-02-21T09:38:01 IST" duration-ms="11500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfiguration -->
-        <test-method signature="firstTest()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-20T08:31:56 IST" name="firstTest" finished-at="2023-02-20T08:32:47 IST" duration-ms="51019" status="FAIL">
+        <test-method signature="firstTest()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-21T09:38:01 IST" name="firstTest" finished-at="2023-02-21T09:38:26 IST" duration-ms="25965" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -61,11 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-20T08:32:47 IST" name="methodTearDown" finished-at="2023-02-20T08:32:48 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-21T09:38:26 IST" name="methodTearDown" finished-at="2023-02-21T09:38:27 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-20T08:32:48 IST" name="classTearDown" finished-at="2023-02-20T08:32:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testscripts.FirstTest@c88a337]" started-at="2023-02-21T09:38:27 IST" name="classTearDown" finished-at="2023-02-21T09:38:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
